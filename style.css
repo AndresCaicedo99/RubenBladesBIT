@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: bisque;
+    padding: 20px 0;
+}
+
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.caja-border {
+    box-shadow: 0 0 10px #333;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .caja-border:hover {
+    box-shadow: 0 0 20px #333;
+  }
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand {
+    margin-top: -7px; /* para que no se vea todo tan pegado arriba del buscador*/
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c16;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+}
